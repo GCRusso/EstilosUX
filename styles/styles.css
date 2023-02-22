@@ -1,13 +1,33 @@
 body{
     font-family: sans-serif;
     color: grey;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 header{
     background-color: rgb(114, 114, 114);
 }
 
-header nav a{
-    text-decoration: none;
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h2{
+    color: white;
+    font-size: 40px;
+  
+}
+
+nav ul{
+    color: white;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+
+}
+nav ul li a{
     color: white;
 }
 
