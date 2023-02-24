@@ -60,20 +60,47 @@ header nav a{
 
 }
 
+
+
+/* *****MAIN***** */
 h2{
-    width: 250px;
-    height: 50px;
-    margin-top: 50px;
-    margin-left: 240px; 
-    margin-bottom: 10px;
-    margin-right: 200px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+   
     border: 1px solid red;
     
 }
+
+main .colunas-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .coluna1{
+    width: 75%;
+
+}
+
+main .coluna1 #lapis{
+    width: 100%;
+}
+
+main .coluna2 {
+    width: 20%;
+}
+
+main .margin {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main .margin2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 
 /* ****Rodapé**** */
 footer{
