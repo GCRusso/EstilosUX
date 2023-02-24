@@ -44,12 +44,19 @@ header h1 #logoux{
 
 header nav{
     border: 1px solid red;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 header nav a{
     color: white;
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
 
 }
 
