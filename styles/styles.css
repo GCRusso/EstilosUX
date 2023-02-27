@@ -9,31 +9,36 @@
 
 body{
     font-family: 'Quicksand', sans-serif;
-    color: grey;    
-
+    color: #676767;  
+    background-color: #edeced;  
+    
 }
 /* para dimensionar o layout grid da pagina, limitar a aproximação das bordas */
 .container-grid{
     width: 80%;
+    max-width: 1200px;
+    min-width: 992px;
     margin: 0 auto;
 
 }
 
+
 /* ****Cabeçalho**** */
 header{
-    background-color: grey;
+    background-color: #676767;
+    margin-bottom: 15px;
 
 }
+/* Espaçamento do logo/link */
 header .header-flex{
     display: flex;
     justify-content: space-between;
 }
-
+/* logo EstilosUX */
 header h1{
     font-weight: 300;
     color: white;
-    border: 1px solid red;
-
+    
 }
 
 header h1 #logoux{
@@ -41,70 +46,59 @@ header h1 #logoux{
     font-style: italic  ;
 
 }
-
+/* conjunto links */
 header nav{
-    border: 1px solid red;
     width: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-
+/* links individuais */
 header nav a{
     color: white;
     text-decoration: none;
     display: flex;
     justify-content: space-between;
 
-
 }
-
-
 
 /* *****MAIN***** */
-h2{
-   
-    border: 1px solid red;
-    
-}
 
 main .colunas-flex{
     display: flex;
     justify-content: space-between;
 }
-
-main .coluna1{
+/* Coluna 1 section */
+main .coluna1{ 
     width: 75%;
-
+    background-color: white;
+    line-height: 24px;
 }
-
+/* imagem lapis */
 main .coluna1 #lapis{
     width: 100%;
+    display: block;
 }
-
+/* articles */
 main .coluna2 {
-    width: 20%;
+        background-color: white;
+        margin-bottom: 15px;
 }
-
+/* espaçamentos paragrafos */
 main .margin {
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 15px 20px 0px 20px;
 }
-
+/* espaçamento paragrafos */
 main .margin2 {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 25px 20px 25px 20px;
 }
-
-
 
 /* ****Rodapé**** */
 footer{
     color: white;
-    background-color: grey;
-
+    background-color: #676767;
+    margin-top: 15px;
+    padding: 20px 0px 20px 0px ;
+/* na escrita curta segue o sentido de relogio top/right/bottom/left */
 }   
