@@ -15,10 +15,10 @@ body{
 }
 /* para dimensionar o layout grid da pagina, limitar a aproximação das bordas */
 .container-grid{
-    width: 80%;
-    max-width: 1200px;
-    min-width: 992px;
-    margin: 0 auto;
+    width: 100%; /*  */
+    max-width: 1200px; /*largura maxima */
+    min-width: 992px; /* largura minima */
+    margin: 0 auto; /*  */
 
 }
 
@@ -81,10 +81,29 @@ main .coluna1 #lapis{
     display: block;
 }
 /* articles */
+
 main .coluna2 {
         background-color: white;
-        margin-bottom: 15px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        height: 200 px;
+        width: 400px;
+        align-items: center;
+        text-align: center;
+        
+    }
+.border{
+    border-bottom: 1px solid grey;
+    width: 100%;
 }
+
+.space{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 /* espaçamentos paragrafos */
 main .margin {
     margin: 15px 20px 0px 20px;
